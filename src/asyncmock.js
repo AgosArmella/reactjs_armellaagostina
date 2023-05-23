@@ -1,8 +1,8 @@
 const productos = [
-    { nombre: "Yerba", precio: 500, id: "1", img: "../img/yerba.jpg", idCat: "2" },
-    { nombre: "Fideos", precio: 180, id: "2", img: "../img/fideos.jpg", idCat: "2" },
-    { nombre: "Arroz", precio: 200, id: "3", img: "../img/arroz.jpg", idCat: "3" },
-    { nombre: "Aceite", precio: 400, id: "4", img: "../img/aceite.jpg", idCat: "3" },
+    { nombre: "Clavos 2'", precio: 500, id: "1", img: "../img/clavosdospulgadas.jpg", idCat: "2" },
+    { nombre: "Clavos 2' y 1/2", precio: 180, id: "2", img: "../img/clavosdosymedia.jpg", idCat: "2" },
+    { nombre: "Alambre fardo", precio: 200, id: "3", img: "../img/alambre fardo.jpg", idCat: "3" },
+    { nombre: "Alambre 1.6", precio: 400, id: "4", img: "../img/alamabre 1.6.jpg", idCat: "3" },
 ]
 
 export const getProductos = () => {
@@ -13,7 +13,6 @@ export const getProductos = () => {
     })
 }
 
-//Creamos una nueva función similar a la anterior pero que nos retorne un solo item:
 
 export const getUnProducto = (id) => {
     return new Promise(resolve => {
@@ -24,7 +23,6 @@ export const getUnProducto = (id) => {
     })
 }
 
-//Creamos una nueva función que retorna toda la categoría. 
 
 export const getProductosPorCategoria = (idCategoria) => {
     return new Promise(resolve => {

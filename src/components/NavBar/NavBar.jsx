@@ -3,21 +3,21 @@ import './NavBar.css'
 import { NavLink, Link } from "react-router-dom"
 
 const NavBar = () => {
-  const imgMarolio = "https://www.marolio.com.ar/sites/all/themes/theme1043/logo.png";
+  const imgMatos = "../img/matos.jpg";
   return (
     <header>
         <Link to={"/"}>
-          <img className="imgMarolio" src={imgMarolio} alt="" />
+          <img className="imgMatos" src={imgMatos} alt="" />
         </Link>
 
         <nav>
             <ul>
                 <li>
-                  <NavLink to={"/categoria/2"}> Lácteos </NavLink>
+                  <NavLink to={"/categoria/2"}> CLAVOS </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to={"/categoria/3"}> Almacén </NavLink>
+                  <NavLink to={"/categoria/3"}> ALAMBRE </NavLink>
                 </li>
             </ul>
         </nav>
