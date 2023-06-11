@@ -1,0 +1,7 @@
+.titulo {
+    text-align: center;
+    color: #6B8F71;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transform: rotateY('angle');
+}
